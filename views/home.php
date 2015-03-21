@@ -39,29 +39,36 @@
 	</div>
 </section>
 <section>
-	<h1>
-			
+	<h1>	
+		<?php echo $home_section_section_section_h1 ?>		
 	</h1>
 	<h2>
-			
+		<?php echo $home_section_section_section_h2 ?>				
 	</h2>
 	<article>
 		<h3>
+			<?php echo $home_section_section_section_article_h3 ?>	
 		</h3>
 		<p>
+			<?php echo $home_section_section_section_article_p ?>	
 		</p>
 		<p>
+			<?php echo $home_section_section_section_article_p_p ?>	
 		</p>
 	</article>
 	<article>
 		<h3>
+			<?php echo $home_section_section_section_article_h3 ?>	
 		</h3>
 		<p>
+			<?php echo $home_section_section_section_article_p ?>	
 		</p>
 		<p>
+			<?php echo $home_section_section_section_article_p_p ?>	
 		</p>
 	</article>
 	<p>
+		<?php echo $home_section_section_section_p ?>	
 	</p>
 </section>
 <section>
@@ -69,18 +76,21 @@
 		<img src="http://jellythemes.com/themes/elixir/03/images/menu_logo.png">
 		<article>
 			<h2>
-			</h2>
+				<?php echo $home_section_section_section_section_article_h2 ?>	
+			</h2>	
 		</article>
 			<h2>
+				<?php echo $home_section_section_section_section_article_article_h2 ?>	
 			</h2>
 		<article>
 		</article>
 		<article>
 			<h2>
+				<?php echo $home_section_section_section_section_article_article_article_h2 ?>	
 			</h2>
 		</article>
 		<a href="">
-			
+			<?php echo $home_section_section_section_section_section_a ?>				
 		</a>
 	</div>
 </section>
@@ -90,6 +100,7 @@
 			<img src="">
 		</figure>
 		<h2>
+			<?php echo $home_section_section_section_section_section_section_h2 ?>	
 		</h2>
 		<div>
 			
