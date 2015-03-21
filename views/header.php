@@ -12,7 +12,7 @@
 					<li><a href="index.php?pageName=about">About</a></li>
 					<li><a href="index.php?pageName=menu">Menu</a></li>
 					<li><a href="index.php?pageName=gallery">Gallery</a></li>
-					<li><a href="#">Reservations</a>
+					<li><a href="index.php?pageName=reservations">Reservations</a>
 					<li><a href="index.php?pageName=contact">Contact</a></li>
 				</ul>
 			</div>

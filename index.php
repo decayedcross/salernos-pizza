@@ -1,3 +1,4 @@
+<?php require('content/load.php'); ?>
 <!DOCTYPE html>
 <html>
 	<head>
