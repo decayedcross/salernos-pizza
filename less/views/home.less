@@ -5,13 +5,12 @@
 
 #home{ 
 	section{	
-		width: 100%;
-		float: left;	
+		.enc-width-float;
 	}	
-	section + section{ 
+	#about-us{ 
 		width: 100%;
 		float: left;
-		background-color: #ffa;
+		background-color: #fff;
 		div{ 
 			.wrap;	
 			h1{ 
@@ -27,29 +26,46 @@
 				font-size: 15px;
 				font-family: "opensans", serif;
 			}
-			section article{
-				width: 50%;
-				float: left;
+			section{	
+				.enc-width-float;
+				article{
+					.enc-make-xs-col(12);
+					.enc-make-sm-col(6);
+					.enc-make-md-col(4);
+					.enc-make-lg-col(3);
+					h2{
+						font-family: "yellowtail", serif;
+						font-size: 58px;
+						text-align: center;
+						color: #309f52;
+						text-rendering: optimizelegibility;
+						margin: 0 0 30px 0;
+					}
+					p{
+						font-size: 15px;
+						color: #777777;
+					}
+					div{
+						background: url("http://jellythemes.com/themes/elixir/03/images/ornament.png") no-repeat scroll 0% 0% transparent;
+						display: block;				
+						height: 35px;
+						margin: 0 auto;				
+					}
+				}	
+				div{
+					.enc-make-xs-col(12);
+					.enc-make-sm-col(6);
+					.enc-make-md-col(4);
+					.enc-make-lg-col(3);
+				}
+				div + div{
+					
+				}
+				article + article{
+										
+				}
 			}
-			section article h2{
-				font-family: "yellowtail", serif;
-				font-size: 58px;
-				text-align: center;
-				color: #309f52;
-				text-rendering: optimizelegibility;
-				margin: 0 0 30px 0;
-			}
-			section article div{
-				background: url("../images/ornament.png") no-repeat scroll 0% 0% transparent;
-				display: block;
-				width: 117px;
-				height: 35px;
-			}
-			
-
 		}
 
 	}
 }
-
-		
