@@ -257,15 +257,17 @@
 				    </li>
 				</ul>		
 			</article>
+			<span>
 				<a href="">
 					<?php echo $home_section_section_section_section_section_a ?>				
 				</a>
+			</span>
 		</div>
 	</section>
-	<section>
-		<div class="wrap">
+	<section id="testimonials">
+		<div>
 			<figure>
-				<img src="">
+				<img src="http://jellythemes.com/themes/elixir/03/images/testimonials_logo.png">
 			</figure>
 			<h2>
 				<?php echo $home_section_section_section_section_section_section_h2 ?>	
