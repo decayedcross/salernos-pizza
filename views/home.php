@@ -47,42 +47,50 @@
 		</div>
 	</section>
 	<section id="hours">
-		<article id="opening">
-			<h1>	
-				<?php echo $home_section_section_section_h1 ?>		
-			</h1>
-			<h2>
-				<?php echo $home_section_section_section_h2 ?>				
-			</h2>
-		</article>
-		<article id="sun-tues">
-			<h3>
-				<?php echo $home_section_section_section_article_h3 ?>	
-			</h3>
+		<div>
+			<article id="open">
+				<h1>	
+					<?php echo $home_section_section_section_h1 ?>		
+				</h1>
+				<h2>
+					<?php echo $home_section_section_section_h2 ?>				
+				</h2>
+			</article>
+		</div>
+		<div>
+			<article id="sun-tues">
+				<h3>
+					<?php echo $home_section_section_section_article_h3 ?>	
+				</h3>
+				<p>
+					<?php echo $home_section_section_section_article_p ?>	
+				</p>
+				<p>
+					<?php echo $home_section_section_section_article_p_p ?>	
+				</p>
+			</article>
+		</div>
+		<div>
+			<article id="fri-sat">
+				<h3>
+					<?php echo $home_section_section_section_article_h3 ?>	
+				</h3>
+				<p>
+					<?php echo $home_section_section_section_article_p ?>	
+				</p>
+				<p>
+					<?php echo $home_section_section_section_article_p_p ?>	
+				</p>
+			</article>
+		</div>
+		<div>
 			<p>
-				<?php echo $home_section_section_section_article_p ?>	
+				<?php echo $home_section_section_section_p ?>	
 			</p>
-			<p>
-				<?php echo $home_section_section_section_article_p_p ?>	
-			</p>
-		</article>
-		<article id="fri-sat">
-			<h3>
-				<?php echo $home_section_section_section_article_h3 ?>	
-			</h3>
-			<p>
-				<?php echo $home_section_section_section_article_p ?>	
-			</p>
-			<p>
-				<?php echo $home_section_section_section_article_p_p ?>	
-			</p>
-		</article>
-		<p>
-			<?php echo $home_section_section_section_p ?>	
-		</p>
+		</div>
 	</section>
-	<section>
-		<div class="wrap">
+	<section id="menu">
+		<div>
 			<img src="http://jellythemes.com/themes/elixir/03/images/menu_logo.png">
 			<article>
 				<h2>

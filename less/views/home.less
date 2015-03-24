@@ -1,18 +1,34 @@
-.wrap{
-	width: 1220px;
-	margin: 0 auto;	
+html,body{
+	margin: 0;
+	padding: 0;
+}
+.enc-container{
+	margin-right: auto;
+	margin-left: auto;
+	@media (min-width: @enc-media-sm){
+		width: @enc-media-sm;
+	}
+	@media (min-width: @enc-media-md){
+		width: @enc-media-md;
+	}
+	@media (min-width: @enc-media-lg){
+		width: @enc-media-lg;
+	}
 }
 
 #home{ 
 	section{	
 		.enc-width-float;
+		img{
+			width: 100%;
+			display: block;
+		}
 	}	
 	#about-us{ 
-		width: 100%;
-		float: left;
+		.enc-width-float;
 		background-color: #fff;
 		div{ 
-			.wrap;	
+			.enc-container;	
 			h1{ 
 				text-align: center;
 				font-family: "opensans", serif;
@@ -26,46 +42,142 @@
 				font-size: 15px;
 				font-family: "opensans", serif;
 			}
-			section{	
-				.enc-width-float;
-				article{
-					.enc-make-xs-col(12);
-					.enc-make-sm-col(6);
-					.enc-make-md-col(4);
-					.enc-make-lg-col(3);
-					h2{
-						font-family: "yellowtail", serif;
-						font-size: 58px;
-						text-align: center;
-						color: #309f52;
-						text-rendering: optimizelegibility;
-						margin: 0 0 30px 0;
-					}
-					p{
-						font-size: 15px;
-						color: #777777;
-					}
-					div{
-						background: url("http://jellythemes.com/themes/elixir/03/images/ornament.png") no-repeat scroll 0% 0% transparent;
-						display: block;				
-						height: 35px;
-						margin: 0 auto;				
-					}
-				}	
-				div{
-					.enc-make-xs-col(12);
-					.enc-make-sm-col(6);
-					.enc-make-md-col(4);
-					.enc-make-lg-col(3);
+		}
+	}
+	#history{	
+		.enc-width-float;
+		div{
+			.enc-container;
+			article{
+				.enc-make-xs-col(12);
+				.enc-make-sm-col(6);
+				.enc-make-md-col(6);
+				.enc-make-lg-col(6);
+				h2{
+					font-family: "yellowtail", serif;
+					font-size: 58px;
+					text-align: center;
+					color: #309f52;
+					text-rendering: optimizelegibility;
 				}
-				div + div{
-					
+				p{
+					font-size: 15px;
+					color: #777777;
 				}
-				article + article{
-										
+				span{
+					background: url("http://jellythemes.com/themes/elixir/03/images/ornament.png") no-repeat scroll 0% 0% transparent;
+					display: block;				
+					height: 35px;
+					margin: 0 auto;				
+				}
+			}	
+			div{
+				.enc-make-xs-col(12);
+				.enc-make-sm-col(6);
+				.enc-make-md-col(6);
+				.enc-make-lg-col(6);
+				img{
+					width: 100%;
+					display: block;
+					margin: 0 auto;
 				}
 			}
 		}
-
 	}
-}
+	#history-two{	
+		.enc-width-float;
+		div{
+			.enc-container;
+				div{
+					.enc-make-xs-col(12);
+					.enc-make-sm-col(6);
+					.enc-make-md-col(6);
+					.enc-make-lg-col(6);
+					img{
+						width: 100%;
+						display: block;
+						margin: 0 auto;
+					}
+				}
+			article{
+				.enc-make-xs-col(12);
+				.enc-make-sm-col(6);
+				.enc-make-md-col(6);
+				.enc-make-lg-col(6);
+				h2{
+					font-family: "yellowtail", serif;
+					font-size: 58px;
+					text-align: center;
+					color: #309f52;
+					text-rendering: optimizelegibility;
+				}
+				p{
+					font-size: 15px;
+					color: #777777;
+				}	
+			}
+		}
+	}
+	#hours{
+		.enc-width-float;
+		background-color: #aaa;
+		div{
+			.enc-container;
+			background-color: #000;
+				#open{
+					.enc-make-xs-col(12);
+					.enc-make-sm-col(12);
+					.enc-make-md-col(12);
+					.enc-make-lg-col(12);
+					h1{
+						color: #FFF;
+						font-size: 39px;
+						font-weight: 700;
+					}
+					h2{
+						color: #dd0301;
+						font-size: 20px;
+						font-style: italic;
+				}
+			}
+		}
+			#sun-tues{
+					.enc-make-xs-col(12);
+					.enc-make-sm-col(6);
+					.enc-make-md-col(6);
+					.enc-make-lg-col(6);
+					h3{
+						color: #dd0301;
+						font-size: 43px;
+						font-style: italic;
+					}
+					p{
+						font-weight: 400;
+						font-style: normal;
+						color: #fff;
+						font-size: 40px;
+					}
+				}
+			}
+
+			#fri-sat{
+				.enc-make-xs-col(12);
+				.enc-make-sm-col(6);
+				.enc-make-md-col(6);
+				.enc-make-lg-col(6);
+				h3{
+					color: #dd0301;
+					font-size: 43px;
+					font-style: italic;
+				}
+				p{
+					font-weight: 400;
+					font-style: normal;
+					color: #fff;
+					font-size: 40px;
+				}
+			}
+		}
+	#menu{
+		
+	}
