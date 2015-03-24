@@ -22,7 +22,11 @@
 	$home_section_section_section_article_article_p = '08:00' ;
 	$home_section_section_section_article_article_p_p = '03:00' ;
 	$home_section_section_section_p = 'RESERVATION NUMBER: 0842-5484214' ;
+
 	$home_section_section_section_section_article_h2 = 'Great Pasta' ;
+	$home_menu_title = 'filet' ;
+	$home_menu_description = '7 oz. Center Cut10 oz. Double cut' ;
+	$home_menu_price = '14.99' ;
 	$home_section_section_section_section_article_article_h2  = 'Our Pizzas' ;
 	$home_section_section_section_section_article_article_article_h2  = 'Desserts' ;
 	$home_section_section_section_section_section_a = 'View Complete Menu' ;

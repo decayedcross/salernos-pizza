@@ -1,5 +1,5 @@
 <main id="home">
-	<section>
+	<section id="slide-show">
 		<img src="http://jellythemes.com/themes/elixir/03/images/slider/03.jpg">
 	</section>
 	<section id="about-us">
@@ -56,8 +56,6 @@
 					<?php echo $home_section_section_section_h2 ?>				
 				</h2>
 			</article>
-		</div>
-		<div>
 			<article id="sun-tues">
 				<h3>
 					<?php echo $home_section_section_section_article_h3 ?>	
@@ -69,8 +67,7 @@
 					<?php echo $home_section_section_section_article_p_p ?>	
 				</p>
 			</article>
-		</div>
-		<div>
+			<div></div>
 			<article id="fri-sat">
 				<h3>
 					<?php echo $home_section_section_section_article_h3 ?>	
@@ -82,34 +79,187 @@
 					<?php echo $home_section_section_section_article_p_p ?>	
 				</p>
 			</article>
-		</div>
-		<div>
 			<p>
 				<?php echo $home_section_section_section_p ?>	
-			</p>
+			</p>		
 		</div>
 	</section>
 	<section id="menu">
 		<div>
-			<img src="http://jellythemes.com/themes/elixir/03/images/menu_logo.png">
+			<figure>
+				<img src="http://jellythemes.com/themes/elixir/03/images/menu_logo.png">
+			</figure>
 			<article>
 				<h2>
 					<?php echo $home_section_section_section_section_article_h2 ?>	
-				</h2>	
+				</h2>
+				<ul>
+			        <li class="title">
+			        	<?php echo $home_menu_title ?>
+			        </li>
+				    <li class="description">
+				    	<?php echo $home_menu_description ?>
+				    </li>
+				    <li class="price">
+				    	<?php echo $home_menu_price ?>
+				    </li>
+				        
+				 	<li class="title">
+			        	<?php echo $home_menu_title ?>
+			        </li>
+				    <li class="description">
+				    	<?php echo $home_menu_description ?>
+				    </li>
+				    <li class="price">
+				    	<?php echo $home_menu_price ?>
+				    </li>
+
+				    <li class="title">
+			        	<?php echo $home_menu_title ?>
+			        </li>
+				    <li class="description">
+				    	<?php echo $home_menu_description ?>
+				    </li>
+				    <li class="price">
+				    	<?php echo $home_menu_price ?>
+				    </li>
+
+				    <li class="title">
+			        	<?php echo $home_menu_title ?>
+			        </li>
+				    <li class="description">
+				    	<?php echo $home_menu_description ?>
+				    </li>
+				    <li class="price">
+				    	<?php echo $home_menu_price ?>
+				    </li>
+
+				    <li class="title">
+			        	<?php echo $home_menu_title ?>
+			        </li>
+				    <li class="description">
+				    	<?php echo $home_menu_description ?>
+				    </li>
+				    <li class="price">
+				    	<?php echo $home_menu_price ?>
+				    </li>
+				</ul>	
 			</article>
+			<article>
 				<h2>
 					<?php echo $home_section_section_section_section_article_article_h2 ?>	
 				</h2>
-			<article>
+				<ul>
+			        <li class="title">
+			        	<?php echo $home_menu_title ?>
+			        </li>
+				    <li class="description">
+				    	<?php echo $home_menu_description ?>
+				    </li>
+				    <li class="price">
+				    	<?php echo $home_menu_price ?>
+				    </li>
+				        
+				 	<li class="title">
+			        	<?php echo $home_menu_title ?>
+			        </li>
+				    <li class="description">
+				    	<?php echo $home_menu_description ?>
+				    </li>
+				    <li class="price">
+				    	<?php echo $home_menu_price ?>
+				    </li>
+
+				    <li class="title">
+			        	<?php echo $home_menu_title ?>
+			        </li>
+				    <li class="description">
+				    	<?php echo $home_menu_description ?>
+				    </li>
+				    <li class="price">
+				    	<?php echo $home_menu_price ?>
+				    </li>
+
+				    <li class="title">
+			        	<?php echo $home_menu_title ?>
+			        </li>
+				    <li class="description">
+				    	<?php echo $home_menu_description ?>
+				    </li>
+				    <li class="price">
+				    	<?php echo $home_menu_price ?>
+				    </li>
+
+				    <li class="title">
+			        	<?php echo $home_menu_title ?>
+			        </li>
+				    <li class="description">
+				    	<?php echo $home_menu_description ?>
+				    </li>
+				    <li class="price">
+				    	<?php echo $home_menu_price ?>
+				    </li>
+				</ul>	
 			</article>
 			<article>
 				<h2>
 					<?php echo $home_section_section_section_section_article_article_article_h2 ?>	
 				</h2>
+				<ul>
+			        <li class="title">
+			        	<?php echo $home_menu_title ?>
+			        </li>
+				    <li class="description">
+				    	<?php echo $home_menu_description ?>
+				    </li>
+				    <li class="price">
+				    	<?php echo $home_menu_price ?>
+				    </li>
+				        
+				 	<li class="title">
+			        	<?php echo $home_menu_title ?>
+			        </li>
+				    <li class="description">
+				    	<?php echo $home_menu_description ?>
+				    </li>
+				    <li class="price">
+				    	<?php echo $home_menu_price ?>
+				    </li>
+
+				    <li class="title">
+			        	<?php echo $home_menu_title ?>
+			        </li>
+				    <li class="description">
+				    	<?php echo $home_menu_description ?>
+				    </li>
+				    <li class="price">
+				    	<?php echo $home_menu_price ?>
+				    </li>
+
+				    <li class="title">
+			        	<?php echo $home_menu_title ?>
+			        </li>
+				    <li class="description">
+				    	<?php echo $home_menu_description ?>
+				    </li>
+				    <li class="price">
+				    	<?php echo $home_menu_price ?>
+				    </li>
+
+				    <li class="title">
+			        	<?php echo $home_menu_title ?>
+			        </li>
+				    <li class="description">
+				    	<?php echo $home_menu_description ?>
+				    </li>
+				    <li class="price">
+				    	<?php echo $home_menu_price ?>
+				    </li>
+				</ul>		
 			</article>
-			<a href="">
-				<?php echo $home_section_section_section_section_section_a ?>				
-			</a>
+				<a href="">
+					<?php echo $home_section_section_section_section_section_a ?>				
+				</a>
 		</div>
 	</section>
 	<section>

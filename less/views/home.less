@@ -17,11 +17,11 @@ html,body{
 }
 
 #home{ 
-	section{	
+	#slide-show{	
 		.enc-width-float;
 		img{
-			width: 100%;
-			display: block;
+			.enc-center-block;
+			.enc-img-responsive;
 		}
 	}	
 	#about-us{ 
@@ -124,42 +124,39 @@ html,body{
 		div{
 			.enc-container;
 			background-color: #000;
-				#open{
-					.enc-make-xs-col(12);
-					.enc-make-sm-col(12);
-					.enc-make-md-col(12);
-					.enc-make-lg-col(12);
-					h1{
-						color: #FFF;
-						font-size: 39px;
-						font-weight: 700;
-					}
-					h2{
-						color: #dd0301;
-						font-size: 20px;
-						font-style: italic;
+			#open{
+				.enc-make-xs-col(12);
+				.enc-make-sm-col(12);
+				.enc-make-md-col(12);
+				.enc-make-lg-col(12);
+				h1{
+					color: #FFF;
+					font-size: 39px;
+					font-weight: 700;
 				}
-			}
-		}
+				h2{
+					color: #dd0301;
+					font-size: 20px;
+					font-style: italic;
+				}
+			}		
 			#sun-tues{
-					.enc-make-xs-col(12);
-					.enc-make-sm-col(6);
-					.enc-make-md-col(6);
-					.enc-make-lg-col(6);
-					h3{
-						color: #dd0301;
-						font-size: 43px;
-						font-style: italic;
-					}
-					p{
-						font-weight: 400;
-						font-style: normal;
-						color: #fff;
-						font-size: 40px;
-					}
+				.enc-make-xs-col(12);
+				.enc-make-sm-col(6);
+				.enc-make-md-col(6);
+				.enc-make-lg-col(6);
+				h3{
+					color: #dd0301;
+					font-size: 43px;
+					font-style: italic;
+				}
+				p{
+					font-weight: 400;
+					font-style: normal;
+					color: #fff;
+					font-size: 40px;
 				}
 			}
-
 			#fri-sat{
 				.enc-make-xs-col(12);
 				.enc-make-sm-col(6);
@@ -178,6 +175,55 @@ html,body{
 				}
 			}
 		}
-	#menu{
-		
 	}
+	#menu{
+		.enc-width-float;
+		div{
+			.enc-container;
+			figure{
+				.enc-width-float;
+				img{
+					.enc-center-block;
+					.enc-img-responsive;
+				}
+			}
+			article{
+				.enc-make-xs-col(12);
+				.enc-make-sm-col(6);
+				.enc-make-md-col(6);
+				.enc-make-lg-col(4);
+				h2{
+					text-transform: uppercase;
+					text-align: center;
+					color: #309F52;					
+					font-size: 24px;
+					font-weight: 500;
+				}
+				ul{
+				    list-style: none;				    
+				    width: 100%;
+				    padding: 0;
+				    .title{
+				      font-weight: bold;
+				      width: 100%;	
+				      font-size: 15px;	
+				      text-transform: uppercase;		      
+				    }
+				    .description{
+				      width: 75%;				     
+				      float: left;
+				      font-size: 14px;
+				      font-weight: 400;
+				      color: #484745;
+				    }
+				    .price{
+				       width: 25%;
+				       color: #C02530;
+				       float: left;
+				       font-size: 15px;
+				    }
+				}
+			}
+		}
+	}
+}
