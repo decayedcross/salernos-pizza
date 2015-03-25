@@ -1,0 +1,34 @@
+{
+  "name": "js-slider",
+  "homepage": "https://github.com/decayedcross/js-slider",
+  "authors": [
+    "antfuentes87 <antfuentes87@gmail.com>"
+  ],
+  "description": "Media slider",
+  "main": "js/slider.js",
+  "keywords": [
+    "less",
+    "javascript",
+    "html",
+    "css"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "_release": "f59f5e1cd0",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "f59f5e1cd0e8f39f1817ab77eadb9560a27bb035"
+  },
+  "_source": "git://github.com/decayedcross/js-slider.git",
+  "_target": "master",
+  "_originalSource": "decayedcross/js-slider",
+  "_direct": true
+}

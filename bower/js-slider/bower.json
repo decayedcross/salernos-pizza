@@ -1,0 +1,25 @@
+{
+  "name": "js-slider",
+  "version": "1.0.0",
+  "homepage": "https://github.com/decayedcross/js-slider",
+  "authors": [
+    "antfuentes87 <antfuentes87@gmail.com>"
+  ],
+  "description": "Media slider",
+  "main": "js/slider.js",
+  "keywords": [
+    "less",
+    "javascript",
+    "html",
+    "css"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
