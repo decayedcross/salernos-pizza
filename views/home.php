@@ -1,14 +1,14 @@
 <main id="home">
-	<section id="slide-show" class="">
-		<figure class="item">
-			<img src="http://jellythemes.com/themes/elixir/03/images/slider/01.jpg">
-		</figure>
-		<figure class="item">
-			<img src="http://jellythemes.com/themes/elixir/03/images/slider/02.jpg">
-		</figure>
-		<figure class="item">
-			<img src="http://jellythemes.com/themes/elixir/03/images/slider/03.jpg">
-		</figure>
+	<section id="slide-show">
+		<div class="item">
+			<img src="http://jellythemes.com/themes/elixir/03/images/slider/01.jpg" />
+		</div>
+		<div class="item">
+			<img src="http://jellythemes.com/themes/elixir/03/images/slider/02.jpg" />
+		</div>
+		<div class="item">
+			<img src="http://jellythemes.com/themes/elixir/03/images/slider/03.jpg" />
+		</div>
 	</section>
 	<section id="about-us">
 		<div>

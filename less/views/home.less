@@ -16,19 +16,84 @@ html,body{
 	}
 }
 
-#home{ 
-	#slide-show{	
-		.enc-width-float;
-		.item{ 	
+
+
+#home{
+	#slide-show{
+		overflow: hidden;
+		height: auto;
+		.item{
+			height: auto;
+			overflow: hidden;
 			img{
-			.enc-center-block;
-			.enc-img-responsive;
-			display: block;
-    		width: 100%;
-    		height: auto;
+				overflow: hidden;
+				height: auto;
+			}
+		}	
+	}
+}
+
+#home{ 
+	#slide-show{
+		.owl-wrapper-outer{
+			.owl-wrapper{
+				.owl-item{
+					img{
+					}
+				}
+			}
+		}
+		.owl-controls{
+			.owl-buttons{
+				height: 43px;
+				position: absolute;
+				left: 0;
+				right: 0;
+				top: 0;
+				bottom: 65px;
+				margin: auto;
+				z-index: 9999;
+				.owl-prev{
+					.fa;
+					width: 79px;
+					height: 79px;
+					font-size: 50px;
+					float: left;
+					margin-left: 15px;
+					position: relative;
+					opacity: 1;
+					-webkit-transition: all .3s ease-in-out;
+					-moz-transition: opacity .3s ease-in-out;
+					-o-transition: all .3s ease-in-out;
+					transition: all .3s ease-in-out;
+					z-index: 9999;
+					background-color: rgba(255,255,255,.01);
+					&:before{
+						content: @fa-var-glass;
+					}
+				}
+				.owl-next{
+					.fa;
+					width: 79px;
+					height: 79px;
+					font-size: 50px;
+					float: right;
+					margin-right: 18px;
+					position: relative;
+					opacity: 1;
+					-webkit-transition: all .3s ease-in-out;
+					-moz-transition: opacity .3s ease-in-out;
+					-o-transition: all .3s ease-in-out;
+					transition: all .3s ease-in-out;
+					z-index: 9999;
+					background-color: rgba(255,255,255,.01);
+					&:before{
+						content: @fa-var-glass;
+					}
+				}
+			}
 		}
 	}
-}	
 	#about-us{ 
 		.enc-width-float;
 		background-color: #fff;
