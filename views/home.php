@@ -1,6 +1,14 @@
 <main id="home">
-	<section id="slide-show">
-		<img src="http://jellythemes.com/themes/elixir/03/images/slider/03.jpg">
+	<section id="slide-show" class="">
+		<figure class="item">
+			<img src="http://jellythemes.com/themes/elixir/03/images/slider/01.jpg">
+		</figure>
+		<figure class="item">
+			<img src="http://jellythemes.com/themes/elixir/03/images/slider/02.jpg">
+		</figure>
+		<figure class="item">
+			<img src="http://jellythemes.com/themes/elixir/03/images/slider/03.jpg">
+		</figure>
 	</section>
 	<section id="about-us">
 		<div>
@@ -26,7 +34,7 @@
 				</p>
 				<span></span>
 			</article>
-			<div>
+			<div id>
 				<img src="http://jellythemes.com/themes/elixir/03/images/about02.jpg">
 			</div>
 		</div>

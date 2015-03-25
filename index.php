@@ -20,6 +20,8 @@
 			}
 			require('views/footer.php');
 		?>
-		<script type="text/javascript" src"bower/jquery/dist/jquery.min.js"></script>
+		<script type="text/javascript" src="bower/jquery/dist/jquery.min.js"></script>
+		<script type="text/javascript" src="bower/js-slider/js/slider.min.js"></script>
+		<script type="text/javascript" src="js/home/main_slider.js"></script>
 	</body>
 </html>
