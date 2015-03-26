@@ -21,13 +21,16 @@ html,body{
 #home{
 	#slide-show{
 		overflow: hidden;
-		height: auto;
 		.item{
-			height: auto;
+			.enc-media-manual-width-all-sm(position, relative);
+			.enc-media-manual-width-all-md(position, relative);
+			.enc-media-manual-width-all-lg(position, relative);
 			overflow: hidden;
 			img{
+				.enc-media-manual-width-all-sm(position, absolute);
+				.enc-media-manual-width-all-md(position, absolute);
+				.enc-media-manual-width-all-lg(position, static);
 				overflow: hidden;
-				height: auto;
 			}
 		}	
 	}
