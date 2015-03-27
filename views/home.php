@@ -34,7 +34,7 @@
 				</p>
 				<span></span>
 			</article>
-			<div id>
+			<div>
 				<img src="http://jellythemes.com/themes/elixir/03/images/about02.jpg">
 			</div>
 		</div>
